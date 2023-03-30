@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		88768BC729D5090100CFA0BC /* WhatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BC629D5090100CFA0BC /* WhatsAppApp.swift */; };
-		88768BC929D5090100CFA0BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BC829D5090100CFA0BC /* ContentView.swift */; };
 		88768BCB29D5090500CFA0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88768BCA29D5090500CFA0BC /* Assets.xcassets */; };
 		88768BCE29D5090500CFA0BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88768BCD29D5090500CFA0BC /* Preview Assets.xcassets */; };
+		88768BDA29D5098300CFA0BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BD929D5098300CFA0BC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88768BC329D5090100CFA0BC /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88768BC629D5090100CFA0BC /* WhatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppApp.swift; sourceTree = "<group>"; };
-		88768BC829D5090100CFA0BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88768BCA29D5090500CFA0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88768BCD29D5090500CFA0BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88768BD929D5098300CFA0BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,10 @@
 		88768BC529D5090100CFA0BC /* WhatsApp */ = {
 			isa = PBXGroup;
 			children = (
+				88768BD629D5092300CFA0BC /* ModelView */,
+				88768BD529D5091E00CFA0BC /* Model */,
+				88768BD429D5091600CFA0BC /* View */,
 				88768BC629D5090100CFA0BC /* WhatsAppApp.swift */,
-				88768BC829D5090100CFA0BC /* ContentView.swift */,
 				88768BCA29D5090500CFA0BC /* Assets.xcassets */,
 				88768BCC29D5090500CFA0BC /* Preview Content */,
 			);
@@ -65,6 +67,44 @@
 				88768BCD29D5090500CFA0BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88768BD429D5091600CFA0BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88768BD829D5094B00CFA0BC /* Settings */,
+				88768BD729D5093700CFA0BC /* HomeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88768BD529D5091E00CFA0BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88768BD629D5092300CFA0BC /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		88768BD729D5093700CFA0BC /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				88768BD929D5098300CFA0BC /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		88768BD829D5094B00CFA0BC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88768BC929D5090100CFA0BC /* ContentView.swift in Sources */,
+				88768BDA29D5098300CFA0BC /* HomeView.swift in Sources */,
 				88768BC729D5090100CFA0BC /* WhatsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
