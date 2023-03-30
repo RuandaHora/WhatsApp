@@ -4,7 +4,7 @@ import SwiftUI
 struct WhatsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            PrincipalView()
         }
     }
 }

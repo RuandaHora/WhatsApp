@@ -70,25 +70,30 @@ struct HomeView: View {
                         }
                         }
                     Divider()
-                    HStack {
-                        Image("gustavo")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(100)
-                        VStack(alignment: .leading){
-                        Text("Linda ❤️")
-                            .font(.system(size: 20).bold())
-                        
-                            HStack {
-                                Image(systemName: "photo")
-                                    .foregroundColor(Color.blue)
-                                    .font(.system(size:15))
-                                Text("Foto")
-                                    .font(.system(size: 15))
-                                    .foregroundColor(Color.secondary)
+                   
+                        HStack {
+                            NavigationLink(destination: melMaia()) {
+                                Image("Linda")
+                                    .resizable()
+                                    .frame(width: 50, height: 50)
+                                    .cornerRadius(100)
                             }
-                            
-                        }
+                            NavigationLink(destination: Troll()){
+                                VStack(alignment: .leading){
+                                Text("Linda ❤️")
+                                    .font(.system(size: 20).bold())
+                                    .foregroundColor(Color.black)
+                                    HStack {
+                                        Image(systemName: "photo")
+                                            .foregroundColor(Color.blue)
+                                            .font(.system(size:15))
+                                        Text("Foto")
+                                            .font(.system(size: 15))
+                                            .foregroundColor(Color.secondary)
+                                    }
+                                    
+                                }
+                            }
                         }
                     Divider()
                     HStack {
