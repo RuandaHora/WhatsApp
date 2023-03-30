@@ -32,7 +32,7 @@ struct HomeView: View {
                                 .font(.system(size: 20).bold())
                             
                             Text("Tem na sua loja?")
-                                .font(.system(size: 10))
+                                .font(.system(size: 13))
                         }
                     }
                     Divider()
@@ -45,8 +45,13 @@ struct HomeView: View {
                         Text("Irmão V")
                             .font(.system(size: 20).bold())
                         
-                            Text("Mano se liga nessa música")
-                                .font(.system(size: 10))
+                            HStack {
+                                Image(systemName: "checkmark")
+                                    .foregroundColor(Color.gray)
+                                    .font(.system(size:15))
+                                Text("Mano se liga nessa música")
+                                    .font(.system(size: 13))
+                            }
                         }
                         
                         }
@@ -60,8 +65,8 @@ struct HomeView: View {
                         Text("Irmão G")
                             .font(.system(size: 20).bold())
                         
-                            Text("Tem na sua loja?")
-                                .font(.system(size: 10))
+                            Text("Boaa mann, parabens")
+                                .font(.system(size: 13))
                         }
                         }
                     Divider()
@@ -74,8 +79,14 @@ struct HomeView: View {
                         Text("Linda ❤️")
                             .font(.system(size: 20).bold())
                         
-                            Text("Foto")
-                                .font(.system(size: 15))
+                            HStack {
+                                Image(systemName: "photo")
+                                    .foregroundColor(Color.blue)
+                                    .font(.system(size:15))
+                                Text("Foto")
+                                    .font(.system(size: 15))
+                                    .foregroundColor(Color.secondary)
+                            }
                             
                         }
                         }
@@ -88,9 +99,14 @@ struct HomeView: View {
                         VStack(alignment: .leading){
                         Text("Irmão N")
                             .font(.system(size: 20).bold())
-                        
-                            Text("Tem na sua loja?")
-                                .font(.system(size: 10))
+                            
+                            HStack {
+                                Image(systemName: "mic.fill")
+                                    .foregroundColor(Color.green)
+                                    .font(.system(size:15))
+                                Text("0:35")
+                                    .font(.system(size: 13))
+                            }
                         }
                         }
                     }.navigationTitle("Conversas")
