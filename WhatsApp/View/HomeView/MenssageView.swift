@@ -101,11 +101,12 @@ struct MenssageView: View {
                         }
                     Divider()
                     HStack {
-                        NavigationLink(destination: Nicolas())
-                        Image("Nicolas")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(100)
+                        NavigationLink(destination: Nicolas()){
+                            Image("Nicolas")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .cornerRadius(100)
+                        }
                         VStack(alignment: .leading){
                         Text("Irmão N")
                             .font(.system(size: 20).bold())
