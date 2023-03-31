@@ -10,10 +10,14 @@
 		88768BC729D5090100CFA0BC /* WhatsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BC629D5090100CFA0BC /* WhatsAppApp.swift */; };
 		88768BCB29D5090500CFA0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88768BCA29D5090500CFA0BC /* Assets.xcassets */; };
 		88768BCE29D5090500CFA0BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88768BCD29D5090500CFA0BC /* Preview Assets.xcassets */; };
-		88768BDA29D5098300CFA0BC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BD929D5098300CFA0BC /* HomeView.swift */; };
+		88768BDA29D5098300CFA0BC /* MenssageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BD929D5098300CFA0BC /* MenssageView.swift */; };
 		88768BDC29D5228500CFA0BC /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BDB29D5228500CFA0BC /* PrincipalView.swift */; };
 		88768BDE29D5277E00CFA0BC /* melMaia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BDD29D5277E00CFA0BC /* melMaia.swift */; };
 		88768BE029D5284500CFA0BC /* Troll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BDF29D5284500CFA0BC /* Troll.swift */; };
+		88768BE229D65B1600CFA0BC /* ConfiguracoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BE129D65B1600CFA0BC /* ConfiguracoesView.swift */; };
+		88768BE529D6605C00CFA0BC /* Nicolas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BE429D6605B00CFA0BC /* Nicolas.swift */; };
+		88768BE729D6610400CFA0BC /* Gustavo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BE629D6610400CFA0BC /* Gustavo.swift */; };
+		88768BE929D661DC00CFA0BC /* Victor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88768BE829D661DC00CFA0BC /* Victor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +25,14 @@
 		88768BC629D5090100CFA0BC /* WhatsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppApp.swift; sourceTree = "<group>"; };
 		88768BCA29D5090500CFA0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88768BCD29D5090500CFA0BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		88768BD929D5098300CFA0BC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88768BD929D5098300CFA0BC /* MenssageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenssageView.swift; sourceTree = "<group>"; };
 		88768BDB29D5228500CFA0BC /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
 		88768BDD29D5277E00CFA0BC /* melMaia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = melMaia.swift; sourceTree = "<group>"; };
 		88768BDF29D5284500CFA0BC /* Troll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Troll.swift; sourceTree = "<group>"; };
+		88768BE129D65B1600CFA0BC /* ConfiguracoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguracoesView.swift; sourceTree = "<group>"; };
+		88768BE429D6605B00CFA0BC /* Nicolas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nicolas.swift; sourceTree = "<group>"; };
+		88768BE629D6610400CFA0BC /* Gustavo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gustavo.swift; sourceTree = "<group>"; };
+		88768BE829D661DC00CFA0BC /* Victor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Victor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,7 @@
 		88768BD429D5091600CFA0BC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88768BE329D6603400CFA0BC /* Share */,
 				88768BD829D5094B00CFA0BC /* Settings */,
 				88768BD729D5093700CFA0BC /* HomeView */,
 			);
@@ -102,8 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				88768BDB29D5228500CFA0BC /* PrincipalView.swift */,
-				88768BD929D5098300CFA0BC /* HomeView.swift */,
-				88768BDD29D5277E00CFA0BC /* melMaia.swift */,
+				88768BD929D5098300CFA0BC /* MenssageView.swift */,
 				88768BDF29D5284500CFA0BC /* Troll.swift */,
 			);
 			path = HomeView;
@@ -112,8 +120,20 @@
 		88768BD829D5094B00CFA0BC /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				88768BE129D65B1600CFA0BC /* ConfiguracoesView.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		88768BE329D6603400CFA0BC /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				88768BDD29D5277E00CFA0BC /* melMaia.swift */,
+				88768BE429D6605B00CFA0BC /* Nicolas.swift */,
+				88768BE629D6610400CFA0BC /* Gustavo.swift */,
+				88768BE829D661DC00CFA0BC /* Victor.swift */,
+			);
+			path = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88768BDA29D5098300CFA0BC /* HomeView.swift in Sources */,
+				88768BDA29D5098300CFA0BC /* MenssageView.swift in Sources */,
+				88768BE729D6610400CFA0BC /* Gustavo.swift in Sources */,
+				88768BE929D661DC00CFA0BC /* Victor.swift in Sources */,
 				88768BDC29D5228500CFA0BC /* PrincipalView.swift in Sources */,
 				88768BDE29D5277E00CFA0BC /* melMaia.swift in Sources */,
+				88768BE229D65B1600CFA0BC /* ConfiguracoesView.swift in Sources */,
+				88768BE529D6605C00CFA0BC /* Nicolas.swift in Sources */,
 				88768BE029D5284500CFA0BC /* Troll.swift in Sources */,
 				88768BC729D5090100CFA0BC /* WhatsAppApp.swift in Sources */,
 			);
@@ -319,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = STRH3LBGWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,6 +351,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsApp/Preview Content\"";
+				DEVELOPMENT_TEAM = STRH3LBGWA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -354,6 +381,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

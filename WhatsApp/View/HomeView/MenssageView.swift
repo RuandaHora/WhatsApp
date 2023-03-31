@@ -1,5 +1,5 @@
 import SwiftUI
-struct HomeView: View {
+struct MenssageView: View {
     @State var Pesquisar = ""
     var body: some View {
         NavigationView{
@@ -37,10 +37,12 @@ struct HomeView: View {
                     }
                     Divider()
                     HStack {
-                        Image("victor")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(100)
+                        NavigationLink(destination: Victor()){
+                            Image("Victor")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .cornerRadius(100)
+                        }
                         VStack(alignment: .leading){
                         Text("Irmão V")
                             .font(.system(size: 20).bold())
@@ -57,10 +59,12 @@ struct HomeView: View {
                         }
                     Divider()
                     HStack {
-                        Image("gustavo")
-                            .resizable()
-                            .frame(width: 50, height: 50)
-                            .cornerRadius(100)
+                        NavigationLink(destination: Gustavo()){
+                            Image("Gustavo")
+                                .resizable()
+                                .frame(width: 50, height: 50)
+                                .cornerRadius(100)
+                        }
                         VStack(alignment: .leading){
                         Text("Irmão G")
                             .font(.system(size: 20).bold())
@@ -82,7 +86,7 @@ struct HomeView: View {
                                 VStack(alignment: .leading){
                                 Text("Linda ❤️")
                                     .font(.system(size: 20).bold())
-                                    .foregroundColor(Color.black)
+                                    .foregroundColor(Color.primary)
                                     HStack {
                                         Image(systemName: "photo")
                                             .foregroundColor(Color.blue)
@@ -97,7 +101,8 @@ struct HomeView: View {
                         }
                     Divider()
                     HStack {
-                        Image("nicolas")
+                        NavigationLink(destination: Nicolas())
+                        Image("Nicolas")
                             .resizable()
                             .frame(width: 50, height: 50)
                             .cornerRadius(100)
@@ -124,6 +129,6 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        MenssageView()
     }
 }

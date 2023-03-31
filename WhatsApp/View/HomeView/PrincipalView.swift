@@ -3,27 +3,27 @@ import SwiftUI
 struct PrincipalView: View {
     var body: some View {
         TabView{
-            HomeView ()
+            MenssageView ()
                 .tabItem {
                     Image(systemName: "circle.dashed")
                     Text("Status")
                 }
-            HomeView ()
+            MenssageView ()
                 .tabItem {
                     Image(systemName: "phone")
                     Text("Chamadas")
                 }
-            HomeView ()
+            MenssageView ()
                 .tabItem {
                     Image(systemName: "person.3")
                     Text("Comunidades")
                 }
-            HomeView ()
+            MenssageView ()
                 .tabItem {
                     Image(systemName: "message")
                     Text("Conversas")
                 }
-            HomeView ()
+            ConfiguracoesView ()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Configurasões")
