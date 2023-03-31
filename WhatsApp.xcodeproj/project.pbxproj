@@ -112,7 +112,6 @@
 			children = (
 				88768BDB29D5228500CFA0BC /* PrincipalView.swift */,
 				88768BD929D5098300CFA0BC /* MenssageView.swift */,
-				88768BDF29D5284500CFA0BC /* Troll.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 				88768BE429D6605B00CFA0BC /* Nicolas.swift */,
 				88768BE629D6610400CFA0BC /* Gustavo.swift */,
 				88768BE829D661DC00CFA0BC /* Victor.swift */,
+				88768BDF29D5284500CFA0BC /* Troll.swift */,
 			);
 			path = Share;
 			sourceTree = "<group>";
